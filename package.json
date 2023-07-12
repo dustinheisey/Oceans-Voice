@@ -1,0 +1,11 @@
+{
+  "name": "fixme",
+  "scripts": {
+    "start": "rm -rf _site && npx @11ty/eleventy --serve --incremental",
+    "build": "rm -rf _site && npx @11ty/eleventy",
+    "node_modules": "rm -rf node_modules && sudo npm install"
+  },
+  "dependencies": {
+    "@dh253/nds": "^1.0.2"
+  }
+}
