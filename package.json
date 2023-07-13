@@ -7,6 +7,6 @@
     "format": "prettier \"**/*.{cjs,html,js,json,md,css}\" --ignore-path ./.eslintignore --write"
   },
   "dependencies": {
-    "@dh253/nds": "^1.1.0"
+    "@dh253/nds": "^1.1.1"
   }
 }
