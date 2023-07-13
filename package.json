@@ -1,11 +1,12 @@
 {
-  "name": "fixme",
+  "name": "oceans-voice",
   "scripts": {
     "start": "rm -rf _site && npx @11ty/eleventy --serve --incremental",
     "build": "rm -rf _site && npx @11ty/eleventy",
-    "node_modules": "rm -rf node_modules && sudo npm install"
+    "node_modules": "rm -rf node_modules && sudo npm install",
+    "format": "prettier \"**/*.{cjs,html,js,json,md,css}\" --ignore-path ./.eslintignore --write"
   },
   "dependencies": {
-    "@dh253/nds": "^1.0.2"
+    "@dh253/nds": "^1.1.0"
   }
 }

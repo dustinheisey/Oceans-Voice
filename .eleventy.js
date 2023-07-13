@@ -1,15 +1,15 @@
-const common = require('@dh253/nds')
+const common = require("@dh253/nds");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(common, {
-    domain: 'fixme',
+    domain: "https://oceansvoice.dustinheisey.com",
     manifest: {
-      name: 'fixme',
-      short_name: 'fixme',
+      name: "Ocean's Voice - Ocean Conservation Nonprofit",
+      short_name: "Ocean's Voice",
       description:
-        'fixme',
-      theme_color: '#fixme',
-      background_color: '#fixme',
-    }
-  })
-}
+        "Ocean's Voice is a nonprofit organization dedicated to protecting and restoring the world's oceans. We conduct research, advocate for policy change, educate the public, and lead conservation initiatives. Join us in creating a future where our oceans thrive.",
+      theme_color: "#01658D",
+      background_color: "#F8FDFF",
+    },
+  });
+};
