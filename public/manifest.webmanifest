@@ -1,0 +1,43 @@
+{
+  "name": "Ocean's Voice - Ocean Conservation Nonprofit",
+  "short_name": "Ocean's Voice",
+  "description": "Ocean's Voice is a nonprofit organization dedicated to protecting and restoring the world's oceans. We conduct research, advocate for policy change, educate the public, and lead conservation initiatives. Join us in creating a future where our oceans thrive.",
+  "theme_color": "#01658D",
+  "background_color": "#F8FDFF",
+  "display": "fullscreen",
+  "start_url": "/",
+  "scope": "/",
+  "orientation": "portrait",
+  "display_override": [
+    "window-control-overlay",
+    "fullscreen",
+    "standalone",
+    "browser"
+  ],
+  "icons": [
+    {
+      "src": "manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
