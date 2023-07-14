@@ -4,7 +4,7 @@
     "start": "rm -rf _site && npx @11ty/eleventy && npm run pwa && npx @11ty/eleventy --serve --incremental",
     "build": "rm -rf _site && npx @11ty/eleventy && npm run pwa",
     "node_modules": "rm -rf node_modules && sudo npm install",
-    "pwa": "pwa-asset-generator ./public/favicon.svg ./_site/ --opaque false --favicon --type png --log --index && pwa-asset-generator ./public/favicon.svg ./_site/ --background '#F8FDFF' --padding '5%' --icon-only --log && pwa-asset-generator ./public/favicon.svg ./_site/ --background '#F8FDFF' --splash-only --type png --padding '5%' --log"
+    "pwa": "pwa-asset-generator ./public/favicon.svg ./_site/favicon --opaque false --favicon --type png --log --index && pwa-asset-generator ./public/favicon.svg ./_site/favicon --background '#F8FDFF' --padding '5%' --icon-only --log && pwa-asset-generator ./public/favicon.svg ./_site/favicon --background '#F8FDFF' --splash-only --type png --padding '5%' --log"
   },
   "dependencies": {
     "@dh253/nds": "^1.1.1",
