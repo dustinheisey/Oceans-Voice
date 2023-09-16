@@ -3,11 +3,11 @@
   "scripts": {
     "start": "rm -rf _site && npx @11ty/eleventy --quiet && npm run assets && npx @11ty/eleventy --serve --quiet --incremental",
     "build": "rm -rf _site && npx @11ty/eleventy && npm run assets",
-    "npm": "rm -rf node_modules && npm install",
+    "i": "rm -rf node_modules && npm install",
     "assets": "svgo -f ./public/svg -o ./_site/svg && pwa-asset-generator ./public/favicon.svg ./_site/favicon --opaque false --favicon --type png --index && pwa-asset-generator ./public/favicon.svg ./_site/favicon --background '#F8FDFF' --padding '5%' --icon-only && pwa-asset-generator ./public/favicon.svg ./_site/favicon --background '#F8FDFF' --splash-only --type png --padding '5%'"
   },
   "dependencies": {
-    "@dh253/nds": "^1.4.3",
+    "@dh253/nds": "^0.5.0",
     "pwa-asset-generator": "^6.3.1"
   }
 }
